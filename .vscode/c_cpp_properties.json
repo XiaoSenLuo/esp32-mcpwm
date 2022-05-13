@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "C:\\UserProgram\\PortableApp\\msys2\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/include/**",
+                "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/**",
+                "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/**",
+                "${config:idf.espIdfPathWin}/components/ads131a/**",
+                "${config:idf.espIdfPathWin}/components/ll_mcpwm/**",
+                "${workspaceFolder}/cmake-build/config/",
+                "${workspaceFolder}/main/**"
+            ],
+            "defines": [
+                "${default}",
+                "CONFIG_ORSYSTEM_MODE = 0",
+                "CONFIG_ORSYSTEM_ID = ((uint32_t)0x00000001)",
+                "CONFIG_ORSYSTEM_TWAI_FILTER = 1"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/include/**",
+                    "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/**",
+                    "${config:idf.toolsPathWin}/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/**",
+                    "${config:idf.espIdfPathWin}/components/ads131a/**",
+                    "${config:idf.espIdfPathWin}/components/ll_mcpwm/**",
+                    "${workspaceFolder}/cmake-build/config/",
+                    "${workspaceFolder}/main/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}

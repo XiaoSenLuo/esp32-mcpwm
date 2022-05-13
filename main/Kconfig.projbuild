@@ -1,0 +1,24 @@
+menu "OrSystem Configuration"
+
+    config ORSYSTEM_MODE
+        int "Orsystem Mode Configure"
+        default 1
+        help
+            "Orsystem Mode Configure, 0-Signal Generator, 1-DQC"
+    config ORSYSTEM_ID
+        int "Orsystem id"
+        default 1
+    
+    config ORSYSTEM_TWAI_FILTER_ENABLE
+        bool "Enable Twai filter"
+        default y
+        help
+            enable twai filter
+    config ORSYSTEM_TWAI_SINGLE_FILTER
+            bool "Enable single filter"
+            default n
+            depends on ORSYSTEM_TWAI_FILTER_ENABLE
+            help
+                y-single filter, n-daul filter
+
+endmenu

@@ -1,0 +1,107 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "C_Cpp.default.intelliSenseMode": "gcc-x86",
+    "C_Cpp.intelliSenseEngine":"Default",
+    "idf.portWin": "COM9",
+    "idf.flashType": "UART",
+    "cmake.cmakePath": "C:/Espressif/tools/cmake/3.16.4/bin/cmake.exe",
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build",
+    "cmake.buildEnvironment": {
+        "IDF_PATH": "C:\\Espressif\\frameworks\\esp-idf-v4.3.2",
+        "PYTHON": "C:\\Espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+        "IDF_CCACHE_ENABLE": "1",
+        "IDF_PYTHON_ENV_PATH": "C:\\Espressif\\python_env\\idf4.3_py3.8_env",
+        "PATH": "C:\\Espressif\\tools\\idf-git\\2.34.2\\cmd;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\esptool_py\\esptool;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\app_update;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\espcoredump;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\partition_table;C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-8.4.0\\xtensa-esp32-elf\\bin;C:\\Espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Espressif\\tools\\cmake\\3.16.4\\bin;C:\\Espressif\\tools\\openocd-esp32\\v0.10.0-esp32-20211111\\openocd-esp32\\bin;C:\\Espressif\\tools\\idf-exe\\1.0.1\\;C:\\Espressif\\tools\\ccache\\3.7\\;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\tools;",
+        "IDF_TARGET": "esp32",
+    },
+    "cmake.environment": {
+    },
+    "cmake.defaultVariants": {
+        "buildType": {
+            "default": "debug",
+            "description": "The build type.",
+            "choices": {
+                "debug": {
+                    "short": "Debug",
+                    "long": "Disable optimizations - include debug information.",
+                    "buildType": "Debug"
+                },
+                "release": {
+                    "short": "Release",
+                    "long": "Optimize for speed - exclude debug information.",
+                    "buildType": "Release"
+                },
+                "minsize": {
+                    "short": "MinSizeRel",
+                    "long": "Optimize for smallest binary size - exclude debug information.",
+                    "buildType": "MinSizeRel"
+                },
+                "reldeb": {
+                    "short": "RelWithDebInfo",
+                    "long": "Optimize for speed - include debug information.",
+                    "buildType": "RelWithDebInfo"
+                }
+            }
+        },
+    },
+    "cmake.additionalKits": [
+    ],
+    "cmake.configureSettings": {
+        "CMAKE_ASM_COMPILER":"C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+        "CMAKE_CXX_COMPILER":"C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe",
+        "CMAKE_C_COMPILER":"C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+        "CMAKE_MAKE_PROGRAM":"C:/UserProgram/PortableApp/msys2/mingw64/bin/mingw32-make.exe",
+        "CMAKE_SYSTEM_NAME":"Generic",
+        "CMAKE_BUILD_TYPE":"Release"
+    },
+    "cmake.copyCompileCommands": "${workspaceFolder}/cmake-build/Compile.json",
+    "cmake.configureEnvironment": {
+        "IDF_PATH": "C:\\Espressif\\frameworks\\esp-idf-v4.3.2",
+        "PYTHON": "C:\\Espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+        "IDF_CCACHE_ENABLE": "1",
+        "IDF_PYTHON_ENV_PATH": "C:\\Espressif\\python_env\\idf4.3_py3.8_env",
+        "PATH": "C:\\Espressif\\tools\\idf-git\\2.34.2\\cmd;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\esptool_py\\esptool;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\app_update;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\espcoredump;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\partition_table;C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-8.4.0\\xtensa-esp32-elf\\bin;C:\\Espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Espressif\\tools\\cmake\\3.16.4\\bin;C:\\Espressif\\tools\\openocd-esp32\\v0.10.0-esp32-20211111\\openocd-esp32\\bin;C:\\Espressif\\tools\\idf-exe\\1.0.1\\;C:\\Espressif\\tools\\ccache\\3.7\\;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\tools;",
+        "IDF_TARGET": "esp32"
+    },
+    "cmake.generator":"MinGW Makefiles",
+    "cmake.configureOnOpen": false,
+	"terminal.integrated.profiles.windows": {
+        "IDF PWSH 7 Profile": {
+            "source": "PowerShell",
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass", 
+                "-NoExit", 
+                "-File", 
+                "C:/Espressif/Initialize-Idf.ps1", 
+                "-IdfId", 
+                "esp-idf-50808ed5926666d8f079d34f581869dc"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "IDF PWSH 7 Profile",
+    "terminal.integrated.env.windows": {
+        "IDF_PATH": "C:\\Espressif\\frameworks\\esp-idf-v4.3.2",
+        "PYTHON": "C:\\Espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+        "IDF_CCACHE_ENABLE": "1",
+        "IDF_PYTHON_ENV_PATH": "C:\\Espressif\\python_env\\idf4.3_py3.8_env",
+        "PATH": "C:\\Espressif\\tools\\idf-git\\2.34.2\\cmd;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\esptool_py\\esptool;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\app_update;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\espcoredump;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\components\\partition_table;C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-8.4.0\\xtensa-esp32-elf\\bin;C:\\Espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Espressif\\tools\\cmake\\3.16.4\\bin;C:\\Espressif\\tools\\openocd-esp32\\v0.10.0-esp32-20211111\\openocd-esp32\\bin;C:\\Espressif\\tools\\idf-exe\\1.0.1\\;C:\\Espressif\\tools\\ccache\\3.7\\;C:\\Espressif\\frameworks\\esp-idf-v4.3.2\\tools;",
+        "IDF_TARGET": "esp32"
+    },
+    "files.associations": {
+        "stream_buffer.h": "c",
+        "*.inc": "c",
+        "orsystem_task.h": "c",
+        "hardware_access.h": "c",
+        "*.ipp": "c",
+        "system_error": "c",
+        "twai_types.h": "c",
+        "esp_flash_partitions.h": "c",
+        "task.h": "c"
+    }
+}

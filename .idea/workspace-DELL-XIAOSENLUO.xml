@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="orsystem" targetName="partition_table" />
+      <config projectName="orsystem" targetName="uf2-app" />
+      <config projectName="orsystem" targetName="__idf_esp_common" />
+      <config projectName="orsystem" targetName="__idf_tcp_transport" />
+      <config projectName="orsystem" targetName="apidoc" />
+      <config projectName="orsystem" targetName="__idf_protocomm" />
+      <config projectName="orsystem" targetName="__idf_log" />
+      <config projectName="orsystem" targetName="efuse_test_table" />
+      <config projectName="orsystem" targetName="__idf_ads131a" />
+      <config projectName="orsystem" targetName="__idf_esp_wifi" />
+      <config projectName="orsystem" targetName="partition_table-flash" />
+      <config projectName="orsystem" targetName="confserver" />
+      <config projectName="orsystem" targetName="__idf_app_trace" />
+      <config projectName="orsystem" targetName="__idf_bootloader_support" />
+      <config projectName="orsystem" targetName="__idf_expat" />
+      <config projectName="orsystem" targetName="encrypted-partition_table-flash" />
+      <config projectName="orsystem" targetName="__idf_spiffs" />
+      <config projectName="orsystem" targetName="__idf_esp_rom" />
+      <config projectName="orsystem" targetName="__idf_espcoredump" />
+      <config projectName="orsystem" targetName="__idf_cbor" />
+      <config projectName="orsystem" targetName="size-files" />
+      <config projectName="orsystem" targetName="__idf_sdmmc" />
+      <config projectName="orsystem" targetName="size-components" />
+      <config projectName="orsystem" targetName="menuconfig" />
+      <config projectName="orsystem" targetName="__idf_mdns" />
+      <config projectName="orsystem" targetName="__idf_esp_pm" />
+      <config projectName="orsystem" targetName="__idf_coap" />
+      <config projectName="orsystem" targetName="mbedcrypto" />
+      <config projectName="orsystem" targetName="efuse_common_table" />
+      <config projectName="orsystem" targetName="bootloader" />
+      <config projectName="orsystem" targetName="__idf_ll_mcpwm" />
+      <config projectName="orsystem" targetName="gen_project_binary" />
+      <config projectName="orsystem" targetName="uf2" />
+      <config projectName="orsystem" targetName="__idf_mqtt" />
+      <config projectName="orsystem" targetName="partition_table_bin" />
+      <config projectName="orsystem" targetName="__idf_protobuf-c" />
+      <config projectName="orsystem" targetName="__idf_efuse" />
+      <config projectName="orsystem" targetName="custom_bundle" />
+      <config projectName="orsystem" targetName="__idf_esp_adc_cal" />
+      <config projectName="orsystem" targetName="__idf_unity" />
+      <config projectName="orsystem" targetName="__idf_esp_system" />
+      <config projectName="orsystem" targetName="flash" />
+      <config projectName="orsystem" targetName="__idf_cmock" />
+      <config projectName="orsystem" targetName="orsystem.elf" />
+      <config projectName="orsystem" targetName="__idf_esp_ipc" />
+      <config projectName="orsystem" targetName="__idf_esp_timer" />
+      <config projectName="orsystem" targetName="__idf_esp_gdbstub" />
+      <config projectName="orsystem" targetName="__idf_esp_ringbuf" />
+      <config projectName="orsystem" targetName="__idf_esp32" />
+      <config projectName="orsystem" targetName="__idf_nvs_flash" />
+      <config projectName="orsystem" targetName="__idf_freemodbus" />
+      <config projectName="orsystem" targetName="__idf_libsodium" />
+      <config projectName="orsystem" targetName="__idf_app_update" />
+      <config projectName="orsystem" targetName="__idf_heap" />
+      <config projectName="orsystem" targetName="__idf_lwip" />
+      <config projectName="orsystem" targetName="__idf_json" />
+      <config projectName="orsystem" targetName="__idf_ulp" />
+      <config projectName="orsystem" targetName="_project_elf_src" />
+      <config projectName="orsystem" targetName="__idf_openssl" />
+      <config projectName="orsystem" targetName="__idf_vfs" />
+      <config projectName="orsystem" targetName="__idf_fatfs" />
+      <config projectName="orsystem" targetName="mbedx509" />
+      <config projectName="orsystem" targetName="__idf_esp_http_client" />
+      <config projectName="orsystem" targetName="mbedtls" />
+      <config projectName="orsystem" targetName="lib" />
+      <config projectName="orsystem" targetName="esp32_linker_script" />
+      <config projectName="orsystem" targetName="__idf_wpa_supplicant" />
+      <config projectName="orsystem" targetName="app-flash" />
+      <config projectName="orsystem" targetName="__idf_tcpip_adapter" />
+      <config projectName="orsystem" targetName="__idf_xtensa" />
+      <config projectName="orsystem" targetName="bootloader-flash" />
+      <config projectName="orsystem" targetName="__idf_cxx" />
+      <config projectName="orsystem" targetName="__idf_pthread" />
+      <config projectName="orsystem" targetName="__idf_console" />
+      <config projectName="orsystem" targetName="__idf_inih" />
+      <config projectName="orsystem" targetName="__idf_spi_flash" />
+      <config projectName="orsystem" targetName="erase_flash" />
+      <config projectName="orsystem" targetName="__idf_esp_netif" />
+      <config projectName="orsystem" targetName="__idf_esp_serial_slave_link" />
+      <config projectName="orsystem" targetName="encrypted-flash" />
+      <config projectName="orsystem" targetName="__idf_soc" />
+      <config projectName="orsystem" targetName="__idf_perfmon" />
+      <config projectName="orsystem" targetName="__idf_hal" />
+      <config projectName="orsystem" targetName="__idf_wifi_provisioning" />
+      <config projectName="orsystem" targetName="show_efuse_table" />
+      <config projectName="orsystem" targetName="__idf_esp-tls" />
+      <config projectName="orsystem" targetName="__idf_mbedtls" />
+      <config projectName="orsystem" targetName="encrypted-bootloader-flash" />
+      <config projectName="orsystem" targetName="encrypted-app-flash" />
+      <config projectName="orsystem" targetName="__idf_jsmn" />
+      <config projectName="orsystem" targetName="__idf_driver" />
+      <config projectName="orsystem" targetName="__idf_main" />
+      <config projectName="orsystem" targetName="efuse_custom_table" />
+      <config projectName="orsystem" targetName="monitor" />
+      <config projectName="orsystem" targetName="__idf_esp_hw_support" />
+      <config projectName="orsystem" targetName="__idf_esp_websocket_client" />
+      <config projectName="orsystem" targetName="__idf_nghttp" />
+      <config projectName="orsystem" targetName="app" />
+      <config projectName="orsystem" targetName="__idf_esp_hid" />
+      <config projectName="orsystem" targetName="__idf_esp_http_server" />
+      <config projectName="orsystem" targetName="__idf_newlib" />
+      <config projectName="orsystem" targetName="__idf_asio" />
+      <config projectName="orsystem" targetName="__idf_wear_levelling" />
+      <config projectName="orsystem" targetName="__idf_esp_event" />
+      <config projectName="orsystem" targetName="size" />
+      <config projectName="orsystem" targetName="__idf_esp_local_ctrl" />
+      <config projectName="orsystem" targetName="__ldgen_output_esp32.project.ld" />
+      <config projectName="orsystem" targetName="__idf_esp_eth" />
+      <config projectName="orsystem" targetName="__idf_freertos" />
+      <config projectName="orsystem" targetName="__idf_esp_https_ota" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Release-xtensa-esp32-elf" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="xtensa-esp32-elf">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="IDF_PATH" value="C:\Espressif\frameworks\esp-idf-v4.3.2" />
+            <env name="PYTHON" value="C:\Espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe" />
+            <env name="IDF_CCACHE_ENABLE" value="1" />
+            <env name="IDF_PYTHON_ENV_PATH" value="C:\Espressif\python_env\idf4.3_py3.8_env" />
+            <env name="PATH" value="C:\Espressif\tools\idf-git\2.34.2\cmd;C:\Espressif\frameworks\esp-idf-v4.3.2\components\esptool_py\esptool;C:\Espressif\frameworks\esp-idf-v4.3.2\components\app_update;C:\Espressif\frameworks\esp-idf-v4.3.2\components\espcoredump;C:\Espressif\frameworks\esp-idf-v4.3.2\components\partition_table;C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.16.4\bin;C:\Espressif\tools\openocd-esp32\v0.10.0-esp32-20211111\openocd-esp32\bin;C:\Espressif\tools\idf-exe\1.0.1\;C:\Espressif\tools\ccache\3.7\;C:\Espressif\frameworks\esp-idf-v4.3.2\tools;" />
+            <env name="IDF_TARGET" value="esp32" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Debug-xtensa-esp32-elf" ENABLED="false" CONFIG_NAME="Debug" TOOLCHAIN_NAME="xtensa-esp32-elf">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="IDF_PATH" value="C:\Espressif\frameworks\esp-idf-v4.3.2" />
+            <env name="PYTHON" value="C:\Espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe" />
+            <env name="IDF_CCACHE_ENABLE" value="1" />
+            <env name="IDF_PYTHON_ENV_PATH" value="C:\Espressif\python_env\idf4.3_py3.8_env" />
+            <env name="PATH" value="C:\Espressif\tools\idf-git\2.34.2\cmd;C:\Espressif\frameworks\esp-idf-v4.3.2\components\esptool_py\esptool;C:\Espressif\frameworks\esp-idf-v4.3.2\components\app_update;C:\Espressif\frameworks\esp-idf-v4.3.2\components\espcoredump;C:\Espressif\frameworks\esp-idf-v4.3.2\components\partition_table;C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.16.4\bin;C:\Espressif\tools\openocd-esp32\v0.10.0-esp32-20211111\openocd-esp32\bin;C:\Espressif\tools\idf-exe\1.0.1\;C:\Espressif\tools\ccache\3.7\;C:\Espressif\frameworks\esp-idf-v4.3.2\tools;" />
+            <env name="IDF_TARGET" value="esp32" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc3cab54-ff51-48dd-a68a-8e60e5c48f28" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release-xtensa-esp32-elf" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main/can_task.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/can_task.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="Make.Settings">
+    <option name="path" value="make" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26p393PnDk8o72d4ktAsmn5gF9W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/mcpwm_180p" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="structure.view.defaults.are.configured" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOSENLUO\OneDrive\Document\CSSC\Project\OrSystem\Code\orsystem\components\mcpwm_180p" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOSENLUO\OneDrive\Document\CSSC\Project\OrSystem\Code\orsystem\assert" />
+      <recent name="C:\Users\XIAOSENLUO\OneDrive\Document\CSSC\Project\OrSystem\Code\orsystem\components\ads131a\include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.__idf_ads131a">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_ads131a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_ads131a" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_app_trace" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_app_trace" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_app_update" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_app_update" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_asio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_asio" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_bootloader_support" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_bootloader_support" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_cbor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_cbor" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_cmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_cmock" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_coap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_coap" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_console" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_console" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_cxx" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_cxx" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_driver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_driver" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_efuse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_efuse" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp-tls" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp-tls" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp32" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp32" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_adc_cal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_adc_cal" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_common" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_eth" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_eth" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_event" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_event" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_gdbstub" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_gdbstub" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_hid" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_hid" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_http_client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_http_client" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_http_server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_http_server" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_https_ota" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_https_ota" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_hw_support" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_hw_support" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_ipc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_ipc" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_local_ctrl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_local_ctrl" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_netif" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_netif" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_pm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_pm" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_ringbuf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_ringbuf" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_rom" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_rom" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_serial_slave_link" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_serial_slave_link" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_system" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_system" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_timer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_timer" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_websocket_client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_websocket_client" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_esp_wifi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_esp_wifi" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_espcoredump" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_espcoredump" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_expat" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_expat" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_fatfs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_fatfs" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_freemodbus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_freemodbus" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_freertos" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_freertos" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_hal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_hal" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_heap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_heap" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_inih" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_inih" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_jsmn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_jsmn" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_json" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_libsodium" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_libsodium" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_ll_mcpwm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_ll_mcpwm" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_log" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_log" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_lwip" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_lwip" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_main" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_mbedtls" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_mbedtls" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_mdns" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_mdns" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_mqtt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_mqtt" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_newlib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_newlib" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_nghttp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_nghttp" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_nvs_flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_nvs_flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_openssl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_openssl" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_perfmon" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_perfmon" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_protobuf-c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_protobuf-c" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_protocomm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_protocomm" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_pthread" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_pthread" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_sdmmc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_sdmmc" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_soc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_soc" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_spi_flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_spi_flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_spiffs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_spiffs" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_tcp_transport" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_tcp_transport" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_tcpip_adapter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_tcpip_adapter" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_ulp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_ulp" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_unity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_unity" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_vfs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_vfs" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_wear_levelling" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_wear_levelling" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_wifi_provisioning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_wifi_provisioning" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_wpa_supplicant" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_wpa_supplicant" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_xtensa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__idf_xtensa" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__ldgen_output_esp32.project.ld" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="__ldgen_output_esp32.project.ld" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_project_elf_src" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="_project_elf_src" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apidoc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="apidoc" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="app-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="app" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bootloader-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="bootloader-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bootloader" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="bootloader" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="confserver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="confserver" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="custom_bundle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="custom_bundle" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="efuse_common_table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="efuse_common_table" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="efuse_custom_table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="efuse_custom_table" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="efuse_test_table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="efuse_test_table" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypted-app-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="encrypted-app-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypted-bootloader-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="encrypted-bootloader-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypted-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="encrypted-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypted-partition_table-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="encrypted-partition_table-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="erase_flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="erase_flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esp32_linker_script" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="esp32_linker_script" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gen_project_binary" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="gen_project_binary" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="lib" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbedcrypto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="mbedcrypto" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbedtls" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="mbedtls" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbedx509" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="mbedx509" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="menuconfig" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="menuconfig" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monitor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="monitor" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orsystem.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="orsystem.elf" CONFIG_NAME="Release-xtensa-esp32-elf" RUN_TARGET_PROJECT_NAME="orsystem" RUN_TARGET_NAME="orsystem.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="partition_table-flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="partition_table-flash" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="partition_table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="partition_table" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="partition_table_bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="partition_table_bin" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="show_efuse_table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="show_efuse_table" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="size-components" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="size-components" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="size-files" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="size-files" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="size" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="size" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uf2-app" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="uf2-app" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uf2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="orsystem" TARGET_NAME="uf2" CONFIG_NAME="Release-xtensa-esp32-elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.__idf_ads131a" />
+      <item itemvalue="CMake 应用程序.__idf_inih" />
+      <item itemvalue="CMake 应用程序.__idf_ll_mcpwm" />
+      <item itemvalue="CMake 应用程序.__idf_app_trace" />
+      <item itemvalue="CMake 应用程序.__idf_app_update" />
+      <item itemvalue="CMake 应用程序.__idf_asio" />
+      <item itemvalue="CMake 应用程序.__idf_bootloader_support" />
+      <item itemvalue="CMake 应用程序.__idf_cbor" />
+      <item itemvalue="CMake 应用程序.__idf_cmock" />
+      <item itemvalue="CMake 应用程序.__idf_coap" />
+      <item itemvalue="CMake 应用程序.__idf_console" />
+      <item itemvalue="CMake 应用程序.__idf_cxx" />
+      <item itemvalue="CMake 应用程序.__idf_driver" />
+      <item itemvalue="CMake 应用程序.__idf_efuse" />
+      <item itemvalue="CMake 应用程序.__idf_esp-tls" />
+      <item itemvalue="CMake 应用程序.__idf_esp32" />
+      <item itemvalue="CMake 应用程序.__idf_esp_adc_cal" />
+      <item itemvalue="CMake 应用程序.__idf_esp_common" />
+      <item itemvalue="CMake 应用程序.__idf_esp_eth" />
+      <item itemvalue="CMake 应用程序.__idf_esp_event" />
+      <item itemvalue="CMake 应用程序.__idf_esp_gdbstub" />
+      <item itemvalue="CMake 应用程序.__idf_esp_hid" />
+      <item itemvalue="CMake 应用程序.__idf_esp_http_client" />
+      <item itemvalue="CMake 应用程序.__idf_esp_http_server" />
+      <item itemvalue="CMake 应用程序.__idf_esp_https_ota" />
+      <item itemvalue="CMake 应用程序.__idf_esp_hw_support" />
+      <item itemvalue="CMake 应用程序.__idf_esp_ipc" />
+      <item itemvalue="CMake 应用程序.__idf_esp_local_ctrl" />
+      <item itemvalue="CMake 应用程序.__idf_esp_netif" />
+      <item itemvalue="CMake 应用程序.__idf_esp_pm" />
+      <item itemvalue="CMake 应用程序.__idf_esp_ringbuf" />
+      <item itemvalue="CMake 应用程序.__idf_esp_rom" />
+      <item itemvalue="CMake 应用程序.__idf_esp_serial_slave_link" />
+      <item itemvalue="CMake 应用程序.__idf_esp_system" />
+      <item itemvalue="CMake 应用程序.__idf_esp_timer" />
+      <item itemvalue="CMake 应用程序.__idf_esp_websocket_client" />
+      <item itemvalue="CMake 应用程序.__idf_esp_wifi" />
+      <item itemvalue="CMake 应用程序.__idf_espcoredump" />
+      <item itemvalue="CMake 应用程序.__idf_expat" />
+      <item itemvalue="CMake 应用程序.__idf_fatfs" />
+      <item itemvalue="CMake 应用程序.__idf_freemodbus" />
+      <item itemvalue="CMake 应用程序.__idf_freertos" />
+      <item itemvalue="CMake 应用程序.__idf_hal" />
+      <item itemvalue="CMake 应用程序.__idf_heap" />
+      <item itemvalue="CMake 应用程序.__idf_jsmn" />
+      <item itemvalue="CMake 应用程序.__idf_json" />
+      <item itemvalue="CMake 应用程序.__idf_libsodium" />
+      <item itemvalue="CMake 应用程序.__idf_log" />
+      <item itemvalue="CMake 应用程序.__idf_lwip" />
+      <item itemvalue="CMake 应用程序.__idf_main" />
+      <item itemvalue="CMake 应用程序.__idf_mbedtls" />
+      <item itemvalue="CMake 应用程序.__idf_mdns" />
+      <item itemvalue="CMake 应用程序.__idf_mqtt" />
+      <item itemvalue="CMake 应用程序.__idf_newlib" />
+      <item itemvalue="CMake 应用程序.__idf_nghttp" />
+      <item itemvalue="CMake 应用程序.__idf_nvs_flash" />
+      <item itemvalue="CMake 应用程序.__idf_openssl" />
+      <item itemvalue="CMake 应用程序.__idf_perfmon" />
+      <item itemvalue="CMake 应用程序.__idf_protobuf-c" />
+      <item itemvalue="CMake 应用程序.__idf_protocomm" />
+      <item itemvalue="CMake 应用程序.__idf_pthread" />
+      <item itemvalue="CMake 应用程序.__idf_sdmmc" />
+      <item itemvalue="CMake 应用程序.__idf_soc" />
+      <item itemvalue="CMake 应用程序.__idf_spi_flash" />
+      <item itemvalue="CMake 应用程序.__idf_spiffs" />
+      <item itemvalue="CMake 应用程序.__idf_tcp_transport" />
+      <item itemvalue="CMake 应用程序.__idf_tcpip_adapter" />
+      <item itemvalue="CMake 应用程序.__idf_ulp" />
+      <item itemvalue="CMake 应用程序.__idf_unity" />
+      <item itemvalue="CMake 应用程序.__idf_vfs" />
+      <item itemvalue="CMake 应用程序.__idf_wear_levelling" />
+      <item itemvalue="CMake 应用程序.__idf_wifi_provisioning" />
+      <item itemvalue="CMake 应用程序.__idf_wpa_supplicant" />
+      <item itemvalue="CMake 应用程序.__idf_xtensa" />
+      <item itemvalue="CMake 应用程序.__ldgen_output_esp32.project.ld" />
+      <item itemvalue="CMake 应用程序._project_elf_src" />
+      <item itemvalue="CMake 应用程序.apidoc" />
+      <item itemvalue="CMake 应用程序.app" />
+      <item itemvalue="CMake 应用程序.app-flash" />
+      <item itemvalue="CMake 应用程序.bootloader" />
+      <item itemvalue="CMake 应用程序.bootloader-flash" />
+      <item itemvalue="CMake 应用程序.confserver" />
+      <item itemvalue="CMake 应用程序.custom_bundle" />
+      <item itemvalue="CMake 应用程序.efuse_common_table" />
+      <item itemvalue="CMake 应用程序.efuse_custom_table" />
+      <item itemvalue="CMake 应用程序.efuse_test_table" />
+      <item itemvalue="CMake 应用程序.encrypted-app-flash" />
+      <item itemvalue="CMake 应用程序.encrypted-bootloader-flash" />
+      <item itemvalue="CMake 应用程序.encrypted-flash" />
+      <item itemvalue="CMake 应用程序.encrypted-partition_table-flash" />
+      <item itemvalue="CMake 应用程序.erase_flash" />
+      <item itemvalue="CMake 应用程序.esp32_linker_script" />
+      <item itemvalue="CMake 应用程序.flash" />
+      <item itemvalue="CMake 应用程序.gen_project_binary" />
+      <item itemvalue="CMake 应用程序.lib" />
+      <item itemvalue="CMake 应用程序.mbedcrypto" />
+      <item itemvalue="CMake 应用程序.mbedtls" />
+      <item itemvalue="CMake 应用程序.mbedx509" />
+      <item itemvalue="CMake 应用程序.menuconfig" />
+      <item itemvalue="CMake 应用程序.monitor" />
+      <item itemvalue="CMake 应用程序.orsystem.elf" />
+      <item itemvalue="CMake 应用程序.partition_table" />
+      <item itemvalue="CMake 应用程序.partition_table-flash" />
+      <item itemvalue="CMake 应用程序.partition_table_bin" />
+      <item itemvalue="CMake 应用程序.show_efuse_table" />
+      <item itemvalue="CMake 应用程序.size" />
+      <item itemvalue="CMake 应用程序.size-components" />
+      <item itemvalue="CMake 应用程序.size-files" />
+      <item itemvalue="CMake 应用程序.uf2" />
+      <item itemvalue="CMake 应用程序.uf2-app" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc3cab54-ff51-48dd-a68a-8e60e5c48f28" name="Changes" comment="" />
+      <created>1648106545873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648106545873</updated>
+      <workItem from="1648106547046" duration="750000" />
+      <workItem from="1648113722773" duration="909000" />
+      <workItem from="1648114925111" duration="266000" />
+      <workItem from="1648115204841" duration="9658000" />
+      <workItem from="1648167997585" duration="13180000" />
+      <workItem from="1648202882832" duration="513000" />
+      <workItem from="1648203414997" duration="5146000" />
+      <workItem from="1648213174057" duration="421000" />
+      <workItem from="1648213664370" duration="14000" />
+      <workItem from="1648213822175" duration="26000" />
+      <workItem from="1648214028774" duration="861000" />
+      <workItem from="1648214971145" duration="245000" />
+      <workItem from="1648215231919" duration="324000" />
+      <workItem from="1648215612793" duration="4574000" />
+      <workItem from="1648258927536" duration="26304000" />
+      <workItem from="1648427993556" duration="3550000" />
+      <workItem from="1648446479600" duration="3419000" />
+      <workItem from="1648514288035" duration="57000" />
+      <workItem from="1649203711973" duration="86000" />
+      <workItem from="1649209525851" duration="1152000" />
+      <workItem from="1649210701200" duration="618000" />
+      <workItem from="1649211801272" duration="1496000" />
+      <workItem from="1649214017443" duration="7000" />
+      <workItem from="1649214792376" duration="22000" />
+      <workItem from="1649214822949" duration="21000" />
+      <workItem from="1649214878944" duration="104000" />
+      <workItem from="1649217954702" duration="47000" />
+      <workItem from="1649219545838" duration="1708000" />
+      <workItem from="1649221276788" duration="8072000" />
+      <workItem from="1649239888065" duration="1802000" />
+      <workItem from="1649248131358" duration="4249000" />
+      <workItem from="1649290045120" duration="5537000" />
+      <workItem from="1649305555841" duration="43000" />
+      <workItem from="1649305624048" duration="3885000" />
+      <workItem from="1649377200224" duration="2396000" />
+      <workItem from="1649555309305" duration="7000" />
+      <workItem from="1649738066072" duration="6665000" />
+      <workItem from="1649808802136" duration="769000" />
+      <workItem from="1649831814299" duration="1537000" />
+      <workItem from="1649921733363" duration="218000" />
+      <workItem from="1649936501578" duration="5002000" />
+      <workItem from="1649982959014" duration="15597000" />
+      <workItem from="1650240115947" duration="25313000" />
+      <workItem from="1650278588871" duration="5556000" />
+      <workItem from="1650326792075" duration="24944000" />
+      <workItem from="1650363124154" duration="7277000" />
+      <workItem from="1650414795549" duration="16401000" />
+      <workItem from="1650449243901" duration="13318000" />
+      <workItem from="1650499791278" duration="25203000" />
+      <workItem from="1650532868490" duration="3399000" />
+      <workItem from="1650599659506" duration="10498000" />
+      <workItem from="1650639013572" duration="5219000" />
+      <workItem from="1650786885313" duration="1734000" />
+      <workItem from="1650793561194" duration="3689000" />
+      <workItem from="1650846313576" duration="22019000" />
+      <workItem from="1650886541591" duration="2033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

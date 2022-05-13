@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"freertos.h": "c",
+			"*.inc": "c",
+			"task.h": "c",
+			"event_groups.h": "c",
+			"main.h": "c",
+			"hardware_access.h": "c",
+			"orsystem_control.h": "c",
+			"tca6416a.h": "c",
+			"stdint.h": "c",
+			"features.h": "c",
+			"_newlib_version.h": "c",
+			"timers.h": "c",
+			"semphr.h": "c",
+			"typeinfo": "cpp",
+			"i2c.h": "c",
+			"esp_system.h": "c",
+			"nvs_flash.h": "c",
+			"ads131a.h": "c",
+			"mcpwm.h": "c",
+			"ll_mcpwm.h": "c",
+			"orsystem_task.h": "c",
+			"spiffs_api.h": "c",
+			"spiffs.h": "c",
+			"string.h": "c",
+			"twai.h": "c",
+			"twai_types.h": "c"
+		}
+	}
+}

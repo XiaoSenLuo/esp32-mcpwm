@@ -1,0 +1,392 @@
+/*
+ * @Author: your name
+ * @Date: 2022-05-05 16:16:54
+ * @LastEditTime: 2022-05-05 16:22:07
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \orsystem\main\config_typedef.h
+ */
+
+#ifndef _CONFIG_TYPEDEF_H__
+#define _CONFIG_TYPEDEF_H__
+
+
+
+typedef enum {
+    UART_DATA_5_BITS   = 0x0,    /*!< word length: 5bits*/
+    UART_DATA_6_BITS   = 0x1,    /*!< word length: 6bits*/
+    UART_DATA_7_BITS   = 0x2,    /*!< word length: 7bits*/
+    UART_DATA_8_BITS   = 0x3,    /*!< word length: 8bits*/
+    UART_DATA_BITS_MAX = 0x4,
+} uart_word_length_t;
+typedef enum {
+    UART_STOP_BITS_1   = 0x1,  /*!< stop bit: 1bit*/
+    UART_STOP_BITS_1_5 = 0x2,  /*!< stop bit: 1.5bits*/
+    UART_STOP_BITS_2   = 0x3,  /*!< stop bit: 2bits*/
+    UART_STOP_BITS_MAX = 0x4,
+} uart_stop_bits_t;
+typedef enum {
+    UART_PARITY_DISABLE  = 0x0,  /*!< Disable UART parity*/
+    UART_PARITY_EVEN     = 0x2,  /*!< Enable UART even parity*/
+    UART_PARITY_ODD      = 0x3   /*!< Enable UART odd parity*/
+} uart_parity_t;
+typedef enum {
+    UART_HW_FLOWCTRL_DISABLE = 0x0,   /*!< disable hardware flow control*/
+    UART_HW_FLOWCTRL_RTS     = 0x1,   /*!< enable RX hardware flow control (rts)*/
+    UART_HW_FLOWCTRL_CTS     = 0x2,   /*!< enable TX hardware flow control (cts)*/
+    UART_HW_FLOWCTRL_CTS_RTS = 0x3,   /*!< enable hardware flow control*/
+    UART_HW_FLOWCTRL_MAX     = 0x4,
+} uart_hw_flowcontrol_t;
+typedef enum {
+    UART_SCLK_APB = 0x0,            /*!< UART source clock from APB*/
+#if SOC_UART_SUPPORT_RTC_CLK
+    UART_SCLK_RTC = 0x1,            /*!< UART source clock from RTC*/
+#endif
+#if SOC_UART_SUPPORT_XTAL_CLK
+    UART_SCLK_XTAL = 0x2,           /*!< UART source clock from XTAL*/
+#endif
+#if SOC_UART_SUPPORT_REF_TICK
+    UART_SCLK_REF_TICK = 0x3,       /*!< UART source clock from REF_TICK*/
+#endif
+} uart_sclk_t;
+typedef struct {
+    int baud_rate;                      /*!< UART baud rate*/
+    uart_word_length_t data_bits;       /*!< UART byte size*/
+    uart_parity_t parity;               /*!< UART parity mode*/
+    uart_stop_bits_t stop_bits;         /*!< UART stop bits*/
+    uart_hw_flowcontrol_t flow_ctrl;    /*!< UART HW flow control mode (cts/rts)*/
+    uint8_t rx_flow_ctrl_thresh;        /*!< UART HW RTS threshold*/
+    union {
+        uart_sclk_t source_clk;         /*!< UART source clock selection */
+        bool use_ref_tick  __attribute__((deprecated)); /*!< Deprecated method to select ref tick clock source, set source_clk field instead */
+    };
+} uart_config_t;
+
+typedef enum {
+    TWAI_MODE_NORMAL,               /**< Normal operating mode where TWAI controller can send/receive/acknowledge messages */
+    TWAI_MODE_NO_ACK,               /**< Transmission does not require acknowledgment. Use this mode for self testing */
+    TWAI_MODE_LISTEN_ONLY,          /**< The TWAI controller will not influence the bus (No transmissions or acknowledgments) but can receive messages */
+} twai_mode_t;
+typedef enum {
+    GPIO_NUM_NC = -1,    /*!< Use to signal not connected to S/W */
+    GPIO_NUM_0 = 0,     /*!< GPIO0, input and output */
+    GPIO_NUM_1 = 1,     /*!< GPIO1, input and output */
+    GPIO_NUM_2 = 2,     /*!< GPIO2, input and output */
+    GPIO_NUM_3 = 3,     /*!< GPIO3, input and output */
+    GPIO_NUM_4 = 4,     /*!< GPIO4, input and output */
+    GPIO_NUM_5 = 5,     /*!< GPIO5, input and output */
+    GPIO_NUM_6 = 6,     /*!< GPIO6, input and output */
+    GPIO_NUM_7 = 7,     /*!< GPIO7, input and output */
+    GPIO_NUM_8 = 8,     /*!< GPIO8, input and output */
+    GPIO_NUM_9 = 9,     /*!< GPIO9, input and output */
+    GPIO_NUM_10 = 10,   /*!< GPIO10, input and output */
+    GPIO_NUM_11 = 11,   /*!< GPIO11, input and output */
+    GPIO_NUM_12 = 12,   /*!< GPIO12, input and output */
+    GPIO_NUM_13 = 13,   /*!< GPIO13, input and output */
+    GPIO_NUM_14 = 14,   /*!< GPIO14, input and output */
+    GPIO_NUM_15 = 15,   /*!< GPIO15, input and output */
+    GPIO_NUM_16 = 16,   /*!< GPIO16, input and output */
+    GPIO_NUM_17 = 17,   /*!< GPIO17, input and output */
+    GPIO_NUM_18 = 18,   /*!< GPIO18, input and output */
+    GPIO_NUM_19 = 19,   /*!< GPIO19, input and output */
+    GPIO_NUM_20 = 20,   /*!< GPIO20, input and output */
+    GPIO_NUM_21 = 21,   /*!< GPIO21, input and output */
+    GPIO_NUM_22 = 22,   /*!< GPIO22, input and output */
+    GPIO_NUM_23 = 23,   /*!< GPIO23, input and output */
+    GPIO_NUM_25 = 25,   /*!< GPIO25, input and output */
+    GPIO_NUM_26 = 26,   /*!< GPIO26, input and output */
+    GPIO_NUM_27 = 27,   /*!< GPIO27, input and output */
+    GPIO_NUM_28 = 28,   /*!< GPIO28, input and output */
+    GPIO_NUM_29 = 29,   /*!< GPIO29, input and output */
+    GPIO_NUM_30 = 30,   /*!< GPIO30, input and output */
+    GPIO_NUM_31 = 31,   /*!< GPIO31, input and output */
+    GPIO_NUM_32 = 32,   /*!< GPIO32, input and output */
+    GPIO_NUM_33 = 33,   /*!< GPIO33, input and output */
+    GPIO_NUM_34 = 34,   /*!< GPIO34, input mode only */
+    GPIO_NUM_35 = 35,   /*!< GPIO35, input mode only */
+    GPIO_NUM_36 = 36,   /*!< GPIO36, input mode only */
+    GPIO_NUM_37 = 37,   /*!< GPIO37, input mode only */
+    GPIO_NUM_38 = 38,   /*!< GPIO38, input mode only */
+    GPIO_NUM_39 = 39,   /*!< GPIO39, input mode only */
+    GPIO_NUM_MAX,
+/** @endcond */
+} gpio_num_t;
+typedef struct {
+    twai_mode_t mode;               /**< Mode of TWAI controller */
+    gpio_num_t tx_io;               /**< Transmit GPIO number */
+    gpio_num_t rx_io;               /**< Receive GPIO number */
+    gpio_num_t clkout_io;           /**< CLKOUT GPIO number (optional, set to -1 if unused) */
+    gpio_num_t bus_off_io;          /**< Bus off indicator GPIO number (optional, set to -1 if unused) */
+    uint32_t tx_queue_len;          /**< Number of messages TX queue can hold (set to 0 to disable TX Queue) */
+    uint32_t rx_queue_len;          /**< Number of messages RX queue can hold */
+    uint32_t alerts_enabled;        /**< Bit field of alerts to enable (see documentation) */
+    uint32_t clkout_divider;        /**< CLKOUT divider. Can be 1 or any even number from 2 to 14 (optional, set to 0 if unused) */
+    int intr_flags;                 /**< Interrupt flags to set the priority of the driver's ISR. Note that to use the ESP_INTR_FLAG_IRAM, the CONFIG_TWAI_ISR_IN_IRAM option should be enabled first. */
+} twai_general_config_t;
+typedef struct {
+    uint32_t brp;                   /**< Baudrate prescaler (i.e., APB clock divider). Any even number from 2 to 128 for ESP32, 2 to 32768 for ESP32S2.
+                                         For ESP32 Rev 2 or later, multiples of 4 from 132 to 256 are also supported */
+    uint8_t tseg_1;                 /**< Timing segment 1 (Number of time quanta, between 1 to 16) */
+    uint8_t tseg_2;                 /**< Timing segment 2 (Number of time quanta, 1 to 8) */
+    uint8_t sjw;                    /**< Synchronization Jump Width (Max time quanta jump for synchronize from 1 to 4) */
+    bool triple_sampling;           /**< Enables triple sampling when the TWAI controller samples a bit */
+} twai_timing_config_t;
+typedef struct {
+    uint32_t acceptance_code;       /**< 32-bit acceptance code */
+    uint32_t acceptance_mask;       /**< 32-bit acceptance mask */
+    bool single_filter;             /**< Use Single Filter Mode (see documentation) */
+} twai_filter_config_t;
+typedef struct {
+    uint32_t owner;
+    uint32_t count;
+}spinlock_t;
+typedef spinlock_t portMUX_TYPE;
+
+typedef enum {
+    TWAI_CTRL_PING = 1,
+    TWAI_CTRL_PING_RESPONSE,
+    TWAI_CTRL_RETURN_REGISTER_DATA,
+    TWAI_CTRL_RETURN_ANALOG_DATA,
+    TWAI_CTRL_SELF_TEST,
+    TWAI_CTRL_INIT,
+    TWAI_CTRL_ALERT
+}twai_control_t;
+typedef enum{
+    ID_REMOTE_PING = 0x30,
+    ID_REMOTE_SYNCHRONOUS,
+    ID_REMOTE_SYNCHRONOUS_START,
+    ID_REMOTE_SYNCHRONOUS_STOP,
+    ID_REMOTE_REQUEST_ALL_REGISTER,
+    ID_REMOTE_REQUEST_ALL_ANALOG_DATA,
+    ID_REMOTE_REQUEST_CH1_ANALOG_DATA,
+    ID_REMOTE_REQUEST_CH2_ANALOG_DATA,
+    ID_REMOTE_REQUEST_CH3_ANALOG_DATA,
+    ID_REMOTE_REQUEST_CH4_ANALOG_DATA,
+#if(CONFIG_ORSYSTEM_MODE == 0)
+    ID_REMOTE_GENERATOR_START,
+    ID_REMOTE_GENERATOR_STOP,
+#endif
+}twaI_remote_id_t;
+
+typedef enum{
+    ID_DATA_PING_DATA = 0x30,
+    ID_DATA_TICK = 0x31,
+    ID_DATA_SET_CAN_BR,
+    /// 采集相关ID
+    ID_DATA_CH1_ANALOG_DATA = 0x36,
+    ID_DATA_CH2_ANALOG_DATA = 0x37,
+    ID_DATA_CH3_ANALOG_DATA = 0x38,
+    ID_DATA_CH4_ANALOG_DATA = 0x39,
+    ID_DATA_REQUEST_ANALOG_DATA = 0x3A,
+    ID_DATA_REQUEST_REGISTER_DATA = 0x3B,
+    ID_DATA_CONFIGURE_REGISTER_DATA = 0x3C,
+    ID_DATA_COMMAND = 0x3D,
+}twai_data_id_t;
+typedef enum{
+    ADS_PIN_RESET,
+    ADS_RESET,
+    ADS_STANDBY,
+    ADS_WAKEUP,
+    ADS_LOCK,
+    ADS_UNLOCK,
+    ADS_STARTUP,
+    ADS_PWRON,
+    ADS_PWROFF,
+    ADS_CONFIGURE,
+    ADS_INITIALIZER,
+    ADS_CTRL_START,
+    ADS_CTRL_STOP
+}ads131a_action_t;
+
+typedef union{
+    struct{
+        uint8_t reset : 1;
+        uint8_t standby : 1;
+        uint8_t lock : 1;
+        uint8_t reserved : 3;
+    };
+    uint8_t val;
+}ads131a_state_t;
+typedef volatile struct ads131a_dev_s{
+    union{
+        uint8_t val;
+    }id_msb;
+    union{
+        uint8_t val;
+    }id_lsb;
+    union{
+        struct{
+            uint8_t f_check : 1;
+            uint8_t f_drdy : 1;
+            uint8_t f_resync : 1;
+            uint8_t f_wdt : 1;
+            uint8_t f_adcin : 1;
+            uint8_t f_spi : 1;
+            uint8_t f_opc : 1;
+            uint8_t bit7 : 1;
+        };
+        uint8_t val;
+    }stat_1;
+    union{
+        struct{
+            uint8_t f_in1p : 1;
+            uint8_t f_in2p : 1;
+            uint8_t f_in3p : 1;
+            uint8_t f_in4p : 1;
+            uint8_t bit4_7 : 4;
+        };
+        uint8_t val;
+    }stat_p;
+    union{
+        struct{
+            uint8_t f_in1n : 1;
+            uint8_t f_in2n : 1;
+            uint8_t f_in3n : 1;
+            uint8_t f_in4n : 1;
+            uint8_t bit4_7 : 4;
+        };
+        uint8_t val;
+    }stat_n;
+    union{
+        struct{
+            uint8_t f_frame : 1;
+            uint8_t f_cs : 1;
+            uint8_t f_startup : 1;
+            uint8_t bit3_7 : 5;
+        };
+        uint8_t val;
+    }stat_s;
+    union{
+        uint8_t val;
+    }error_cnt;
+    union{
+        struct{
+            uint8_t m0pin: 2;
+            uint8_t m1pin: 2;
+            uint8_t m2pin: 2;
+            uint8_t bit5_7: 2;
+        };
+        uint8_t val;
+    }stat_m2;
+    union{
+        uint8_t val;
+    }reserved_08h;
+    union{
+        uint8_t val;
+    }reserved_09h;
+    union{
+        uint8_t val;
+    }reserved_0ah;
+    union{
+        struct{
+            uint8_t comp_th : 3;
+            uint8_t int_refen : 1;
+            uint8_t vref_4v : 1;
+            uint8_t bit5 : 1;
+            uint8_t hrm : 1;
+            uint8_t vncpen : 1;
+        };
+        uint8_t val;
+    }a_sys_cfg;
+    union{
+        struct{
+            uint8_t crc_en : 1; /// 0:CRC disabled (default), 1:CRC enabled
+            uint8_t fixed : 1;
+            uint8_t hizdly : 2;
+            uint8_t dndly : 2;
+            uint8_t crc_mode : 1; /// 0:CRC is valid on only the device words being sent and received (default), 1:CRC is valid on all bits received and transmitted
+            uint8_t wdt_en : 1;
+        };
+        uint8_t val;
+    }d_sys_cfg;
+    union{
+        struct{
+            uint8_t bit0 : 1;
+            uint8_t clk_div : 3;
+            uint8_t bit4 : 1;
+            uint8_t bit5 : 1;
+            uint8_t bit6 : 1;
+            uint8_t clksrc : 1;
+        };
+        uint8_t val;
+    }clk1;
+    union{
+        struct{
+            uint8_t osr : 4;
+            uint8_t bit4 : 1;
+            uint8_t iclk_div : 3;
+        };
+        uint8_t val;
+    }clk2;
+    union{
+        struct{
+            uint8_t ena : 4;
+            uint8_t bit4_7 : 4;
+        };
+        uint8_t val;
+    }adc_ena;
+    union{
+        uint8_t val;
+    }reserved_10h;
+    union{
+        struct{
+            uint8_t gain : 3;
+            uint8_t bit3_7 : 5;
+        };
+        uint8_t val;
+    }adc[4];
+}ads131a_dev_t;
+typedef struct _ads131a_device_t{
+//    uint16_t id;
+//    ads131a_state_t state;
+//    ads131a_config_t config;
+    ads131a_dev_t dev;
+    ads131a_state_t state;
+//    uint16_t opc;              // cmd
+//    uint8_t word_length;       // word length, unit: byte
+//    ads131a_udata_t channel_data;
+    uint32_t vref;       // Unit: mV
+
+}ads131a_device_t;
+
+#define CONFIG_ORSYSTEM_MODE 1
+
+typedef volatile struct orsys_config_reg_s{
+    uint32_t id;
+    struct {
+        uint8_t index;
+        uart_config_t config;
+    }uart;
+    struct {
+//        twai_general_config_t config;
+        twai_timing_config_t timing;
+//        twai_filter_config_t filter;
+    }can;
+#if(CONFIG_ORSYSTEM_MODE)
+    struct {
+        ads131a_device_t ads131a_dev;
+        int32_t atime; /// unit: ms
+
+    }analog;
+#endif
+    portMUX_TYPE mux;
+}orsys_config_reg_t;
+
+typedef struct u64_orsys_reg_config_format_s{
+    uint16_t base_addr;
+    uint8_t offset;
+    union{
+        struct{
+            uint8_t data_length : 3;
+            uint8_t reserved : 5;
+        };
+        uint8_t val;
+    };
+    uint32_t data;
+}u64_orsys_reg_config_format_t;
+
+
+typedef struct orsys_config_reg_s * orsys_config_reg_handle_t;
+
+
+#endif

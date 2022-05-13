@@ -1,1 +1,4 @@
-/cmake-build-debug-xtensa-esp32-elf/
+/*build*/
+*.zip
+*.bin
+assert

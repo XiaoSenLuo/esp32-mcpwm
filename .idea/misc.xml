@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/.github" />
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/.gitlab" />
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/docs" />
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/examples" />
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/make" />
+      <file path="$PROJECT_DIR$/../../../../../../../../../Espressif/frameworks/esp-idf-v4.3.2/tools" />
+      <file path="$PROJECT_DIR$/.vscode" />
+      <file path="$PROJECT_DIR$/assert" />
+      <file path="$PROJECT_DIR$/build" />
+      <file path="$PROJECT_DIR$/cmake-build" />
+    </excludeRoots>
+  </component>
+</project>
